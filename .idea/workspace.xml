@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="" />
+    <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/controller/CalculatorControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/controller/CalculatorControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="21RUzuU6hkyrC3BagLiMo4nFcB6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +43,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/domain/src/main/java/com/calculator/config" />
@@ -67,7 +78,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CalculatorApplication">
+  <component name="RunManager" selected="Spring Boot.RestConsumerApplication">
     <configuration name="CalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="calculator_publisher" />
       <extension name="coverage">
@@ -111,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CalculatorApplication" />
         <item itemvalue="Spring Boot.RestConsumerApplication" />
+        <item itemvalue="Spring Boot.CalculatorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +154,7 @@
       <workItem from="1638058465004" duration="560000" />
       <workItem from="1638059123243" duration="3655000" />
       <workItem from="1638068110287" duration="8708000" />
-      <workItem from="1638079250841" duration="6715000" />
+      <workItem from="1638079250841" duration="10436000" />
     </task>
     <servers />
   </component>
