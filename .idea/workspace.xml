@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/controller/CalculatorControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/controller/CalculatorControler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +158,7 @@
       <workItem from="1638097219486" duration="565000" />
       <workItem from="1638097845801" duration="1738000" />
       <workItem from="1638103861194" duration="4835000" />
-      <workItem from="1638109680679" duration="1973000" />
+      <workItem from="1638109680679" duration="2673000" />
     </task>
     <servers />
   </component>

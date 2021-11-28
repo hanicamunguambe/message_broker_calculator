@@ -15,6 +15,8 @@ public class CalculatorControler {
 
     public static BigDecimal addiction(BigDecimal a, BigDecimal b) {
 
+        a =BigDecimal.valueOf(6);
+        b =BigDecimal.valueOf(1);
         return a.add(b);
     }
 
