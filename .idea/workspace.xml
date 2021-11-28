@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/calculator_publisher/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/calculator_publisher/com/calculator_publisher/config/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/calculator_publisher/com/calculator_publisher/controller/CalculatorControler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/calculator_publisher/com/calculator_publisher/service/RabbitMQSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/domain/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/domain/com/calculator/config/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/domain/com/calculator/domain/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/domain/com/calculator/domain/Resposta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/domain/com/calculator/domain/Resultado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/domain/com/calculator/service/RabbitMQSender.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/service/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/service/RabbitMQConsumer.java" afterDir="false" />
     </list>
@@ -160,6 +170,7 @@
       <workItem from="1638097219486" duration="565000" />
       <workItem from="1638097845801" duration="1738000" />
       <workItem from="1638103861194" duration="4835000" />
+      <workItem from="1638109680679" duration="1080000" />
     </task>
     <servers />
   </component>
