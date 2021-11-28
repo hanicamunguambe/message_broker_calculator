@@ -8,7 +8,7 @@
 
 3. mvn spring-boot:run
 
-4. localhost:8081
+4. localhost:8080
 
 //// RUN RabbitMQ
 
