@@ -2,7 +2,7 @@ package com.rest_consumer.service;
 
 
 import com.calculator.domain.Resultado;
-import com.calculator.exception.CustomInvalidException;
+import com.rest_consumer.exception.CustomInvalidException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -17,7 +17,12 @@ public class RabbitMQConsumer {
 
     @RabbitListener(queues = "calculator.queue")
     public void recievedMessage() throws CustomInvalidException {
-        logger.info("Resultado da operacao: " + resultado.getResultado());
+        try{
+            logger.info("Resultado da operacao: " + resultado.getResultado());
+        }catch (NullPointerException e){
+                e.getMessage();
+        }
+
 
     }
 }

@@ -1,6 +1,6 @@
 package com.calculator.domain;
 
-import com.calculator.service.RabbitMQConsumer;
+import com.calculator.service.RabbitMQSender;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Resposta {
 
     @Autowired
-    RabbitMQConsumer rabbitMQConsumer;
+    RabbitMQSender rabbitMQConsumer;
 
     private String messagem;
 

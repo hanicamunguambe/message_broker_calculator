@@ -1,7 +1,7 @@
 package com.calculator.domain;
 
 
-import com.calculator.service.RabbitMQConsumer;
+import com.calculator.service.RabbitMQSender;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.math.BigDecimal;
@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 public class Resultado  {
 
     @Autowired
-    RabbitMQConsumer rabbitMQConsumer;
+    RabbitMQSender rabbitMQSender;
 
     private BigDecimal resultado;
 
@@ -27,6 +27,7 @@ public class Resultado  {
     public Resultado(BigDecimal resultado) {
         this.resultado = resultado;
     }
+
 
     public BigDecimal getResultado() {
         return resultado;

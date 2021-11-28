@@ -3,8 +3,8 @@ package com.rest_consumer.controller;
 
 import com.calculator.domain.Resposta;
 import com.calculator.domain.Resultado;
-import com.calculator.exception.CustomInvalidException;
 import com.calculator_publisher.controller.CalculatorControler;
+import com.rest_consumer.exception.CustomInvalidException;
 import com.rest_consumer.service.RabbitMQConsumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -35,8 +35,8 @@ public class RestControler {
 
 
     @GetMapping("/adicionar")
-    public ResponseEntity<Resposta> addition(@RequestParam(required = false) BigDecimal a,
-                                                        @RequestParam(required = false) BigDecimal b) throws CustomInvalidException {
+    public ResponseEntity<RabbitMQConsumer> addition(@RequestParam(required = false) BigDecimal a,
+                                                        @RequestParam(required = false) BigDecimal b) throws CustomInvalidException, CustomInvalidException {
 
         BigDecimal res1 = calculatorControler.addiction(a, b);
 
@@ -44,9 +44,9 @@ public class RestControler {
         resultado.setResultado(res1);
         rabbitMQConsumer.recievedMessage();
                 //send(resultado);
-        Resposta response = new Resposta("Operador adicionar executado " +
-                "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
-        return new ResponseEntity <>( response, HttpStatus.CREATED);
+      //  Resposta response = new Resposta("Operador adicionar executado " +
+           //     "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
+        return new ResponseEntity <>( rabbitMQConsumer, HttpStatus.CREATED);
 
     }
 /**
