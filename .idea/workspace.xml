@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/calculator/domain/Resposta.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/calculator/domain/Resposta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/calculator/domain/Resultado.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/calculator/domain/Resultado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/calculator/exception/CustomInvalidException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/calculator/service/RabbitMQConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/service/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/service/RabbitMQConsumer.java" afterDir="false" />
     </list>
@@ -165,6 +159,7 @@
       <workItem from="1638096888685" duration="292000" />
       <workItem from="1638097219486" duration="565000" />
       <workItem from="1638097845801" duration="1738000" />
+      <workItem from="1638103861194" duration="4835000" />
     </task>
     <servers />
   </component>

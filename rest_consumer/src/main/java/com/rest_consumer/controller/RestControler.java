@@ -3,6 +3,7 @@ package com.rest_consumer.controller;
 
 import com.calculator.domain.Resposta;
 import com.calculator.domain.Resultado;
+import com.calculator.service.RabbitMQSender;
 import com.calculator_publisher.controller.CalculatorControler;
 import com.rest_consumer.exception.CustomInvalidException;
 import com.rest_consumer.service.RabbitMQConsumer;
@@ -26,46 +27,58 @@ import java.math.BigDecimal;
 @RequestMapping("/calculator")
 public class RestControler {
 
-    @Autowired
-    RabbitMQConsumer rabbitMQConsumer;
 
-    private Resultado resultado;
+   // @Autowired
+   // RabbitMQConsumer rabbitMQConsumer;
+    RabbitMQSender rabbitMQSender;
+
+
     private Resposta response;
     private CalculatorControler calculatorControler;
 
 
     @GetMapping("/adicionar")
-    public ResponseEntity<RabbitMQConsumer> addition(@RequestParam(required = false) BigDecimal a,
+    public ResponseEntity<Resultado> addition (@RequestParam(required = false) BigDecimal a,
                                                         @RequestParam(required = false) BigDecimal b) throws CustomInvalidException, CustomInvalidException {
 
         BigDecimal res1 = calculatorControler.addiction(a, b);
 
         Resultado resultado = new Resultado();
-        resultado.setResultado(res1);
-        rabbitMQConsumer.recievedMessage();
-                //send(resultado);
-      //  Resposta response = new Resposta("Operador adicionar executado " +
-           //     "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
-        return new ResponseEntity <>( rabbitMQConsumer, HttpStatus.CREATED);
+        try{
+
+            resultado.setResultado(res1);
+            rabbitMQSender.send(resultado);
+        }catch (NullPointerException e){
+            e.getMessage();
+        }
+
+        return new ResponseEntity <>( resultado, HttpStatus.CREATED);
 
     }
-/**
+
     @GetMapping("/subtrair")
-    public ResponseEntity<Resposta> subtraction (@RequestParam(required = false) BigDecimal a,
+    public ResponseEntity<RabbitMQConsumer> subtraction (@RequestParam(required = false) BigDecimal a,
                                              @RequestParam(required = false) BigDecimal b) throws CustomInvalidException {
 
         BigDecimal res1 = calculatorControler.subtraction(a, b);
 
         Resultado resultado = new Resultado();
-        resultado.setResultado(res1);
-        rabbitMQConsumer.recievedMessage();
+        RabbitMQConsumer rabbitMQConsumer = new RabbitMQConsumer();
+        try{
+            resultado.setResultado(res1);
+            rabbitMQConsumer.recievedMessage(resultado);
+        }catch (NullPointerException h)
+        {
+            h.getMessage();
+        }
+
                 //send(resultado);
-        Resposta response = new Resposta("Operador subtrair executado " +
-                "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
-        return new ResponseEntity <>( response, HttpStatus.CREATED);
+        //Resposta response = new Resposta("Operador subtrair executado " +
+           //     "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
+        return new ResponseEntity <>( rabbitMQConsumer, HttpStatus.CREATED);
 
     }
-
+/**
     @GetMapping("/multiplicar")
     public ResponseEntity<Resposta> multiply (@RequestParam(required = false) BigDecimal a,
                                                  @RequestParam(required = false) BigDecimal b) {
