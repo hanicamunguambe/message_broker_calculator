@@ -21,14 +21,21 @@ public class CalculatorControler {
     }
 
     public static BigDecimal subtraction (BigDecimal a, BigDecimal b){
+        a =BigDecimal.valueOf(6);
+        b =BigDecimal.valueOf(1);
+
         return  a.subtract(b);
     }
 
     public static BigDecimal multiplication (BigDecimal a, BigDecimal b){
+        a =BigDecimal.valueOf(2);
+        b =BigDecimal.valueOf(2);
         return  a.multiply(b);
     }
 
     public static BigDecimal division (BigDecimal a, BigDecimal b){
+        a =BigDecimal.valueOf(4);
+        b =BigDecimal.valueOf(2);
         return  a.divide(b);
     }
 
