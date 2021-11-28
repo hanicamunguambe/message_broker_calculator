@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/config/RabbitMQConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/controller/CalculatorControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/controller/CalculatorControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/exception/CustomInvalidException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_publihser/src/main/java/com/calculator_publisher/service/RabbitMQConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/config/RabbitMQConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/controller/RestControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_consumer/src/main/java/com/rest_consumer/service/RabbitMQSender.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +67,11 @@
       <recent name="com.calculator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.calculator_publisher.exception" />
       <recent name="com.calculator_publisher.service" />
-      <recent name="com.calculator.exception" />
-      <recent name="com.calculator.service" />
       <recent name="com.rest_consumer.service" />
+      <recent name="com.rest_consumer.exception" />
+      <recent name="com.rest_consumer.config" />
+      <recent name="com.calculator_publisher.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,7 +157,7 @@
       <workItem from="1638058465004" duration="560000" />
       <workItem from="1638059123243" duration="3655000" />
       <workItem from="1638068110287" duration="8708000" />
-      <workItem from="1638079250841" duration="10436000" />
+      <workItem from="1638079250841" duration="13138000" />
     </task>
     <servers />
   </component>

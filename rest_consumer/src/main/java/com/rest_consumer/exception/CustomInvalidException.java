@@ -1,4 +1,4 @@
-package com.calculator_publisher.exception;
+package com.rest_consumer.exception;
 
 public class CustomInvalidException extends Exception {
 

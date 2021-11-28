@@ -3,8 +3,9 @@ package com.rest_consumer.controller;
 
 import com.calculator.domain.Resposta;
 import com.calculator.domain.Resultado;
+import com.calculator.exception.CustomInvalidException;
 import com.calculator_publisher.controller.CalculatorControler;
-import com.rest_consumer.service.RabbitMQSender;
+import com.rest_consumer.service.RabbitMQConsumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +27,7 @@ import java.math.BigDecimal;
 public class RestControler {
 
     @Autowired
-    RabbitMQSender rabbitMQSender;
+    RabbitMQConsumer rabbitMQConsumer;
 
     private Resultado resultado;
     private Resposta response;
@@ -35,28 +36,30 @@ public class RestControler {
 
     @GetMapping("/adicionar")
     public ResponseEntity<Resposta> addition(@RequestParam(required = false) BigDecimal a,
-                                                        @RequestParam(required = false) BigDecimal b) {
+                                                        @RequestParam(required = false) BigDecimal b) throws CustomInvalidException {
 
         BigDecimal res1 = calculatorControler.addiction(a, b);
 
         Resultado resultado = new Resultado();
         resultado.setResultado(res1);
-        rabbitMQSender.send(resultado);
+        rabbitMQConsumer.recievedMessage();
+                //send(resultado);
         Resposta response = new Resposta("Operador adicionar executado " +
                 "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
         return new ResponseEntity <>( response, HttpStatus.CREATED);
 
     }
-
+/**
     @GetMapping("/subtrair")
     public ResponseEntity<Resposta> subtraction (@RequestParam(required = false) BigDecimal a,
-                                             @RequestParam(required = false) BigDecimal b) {
+                                             @RequestParam(required = false) BigDecimal b) throws CustomInvalidException {
 
         BigDecimal res1 = calculatorControler.subtraction(a, b);
 
         Resultado resultado = new Resultado();
         resultado.setResultado(res1);
-        rabbitMQSender.send(resultado);
+        rabbitMQConsumer.recievedMessage();
+                //send(resultado);
         Resposta response = new Resposta("Operador subtrair executado " +
                 "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
         return new ResponseEntity <>( response, HttpStatus.CREATED);
@@ -72,7 +75,7 @@ public class RestControler {
 
         Resultado resultado = new Resultado();
         resultado.setResultado(res1);
-        rabbitMQSender.send(resultado);
+        rabbitMQConsumer.send(resultado);
         Resposta response = new Resposta("Operador multiplicar executado " +
                 "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
         return new ResponseEntity <>( response, HttpStatus.CREATED);
@@ -88,11 +91,11 @@ public class RestControler {
 
         Resultado resultado = new Resultado();
         resultado.setResultado(res1);
-        rabbitMQSender.send(resultado);
+        rabbitMQConsumer.send(resultado);
         Resposta response = new Resposta("Operador dividir executado " +
                 "e adicionado a quee com sucesso! Resultado =" + resultado.getResultado());
         return new ResponseEntity <>( response, HttpStatus.CREATED);
 
     }
-
+**/
 }

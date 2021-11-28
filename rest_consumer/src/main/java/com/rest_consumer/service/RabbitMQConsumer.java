@@ -1,4 +1,4 @@
-package com.calculator_publisher.service;
+package com.rest_consumer.service;
 
 
 import com.calculator.domain.Resultado;

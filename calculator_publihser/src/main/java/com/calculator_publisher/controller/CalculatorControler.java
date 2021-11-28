@@ -1,6 +1,6 @@
 package com.calculator_publisher.controller;
 
-import com.calculator_publisher.service.RabbitMQConsumer;
+import com.calculator_publisher.service.RabbitMQSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,7 +11,7 @@ public class CalculatorControler {
 
 
     @Autowired
-    RabbitMQConsumer rabbitMQConsumer;
+    RabbitMQSender rabbitMQConsumer;
 
     public static BigDecimal addiction(BigDecimal a, BigDecimal b) {
 

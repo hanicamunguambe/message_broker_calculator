@@ -1,4 +1,4 @@
-package com.rest_consumer.service;
+package com.calculator_publisher.service;
 
 import com.calculator.domain.Resultado;
 import org.springframework.amqp.core.AmqpTemplate;
