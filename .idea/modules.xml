@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/calculator_message_broker_main.iml" filepath="$PROJECT_DIR$/calculator_message_broker_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator_publihser/calculator_publisher.iml" filepath="$PROJECT_DIR$/calculator_publihser/calculator_publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest_consumer/rest_consumer.iml" filepath="$PROJECT_DIR$/rest_consumer/rest_consumer.iml" />
+    </modules>
+  </component>
+</project>

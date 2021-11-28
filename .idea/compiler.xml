@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rest_consumer" />
+        <module name="calculator_publisher" />
+        <module name="domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="calculator_message_broker_main" target="11" />
+      <module name="calculator_publisher" target="11" />
+      <module name="domain" target="11" />
+      <module name="rest_consumer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="calculator_publisher" options="-parameters" />
+      <module name="domain" options="-parameters" />
+      <module name="rest_consumer" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21RUzuU6hkyrC3BagLiMo4nFcB6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/domain/src/main/java/com/calculator/config" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\testes\calculator_message_broker-main\calculator_message_broker-main\domain\src\main\java\com\calculator\config" />
+      <recent name="C:\testes\calculator_message_broker-main\calculator_message_broker-main\calculator_publihser\src\main\java\com\calculator_publisher\config" />
+      <recent name="C:\testes\calculator_message_broker-main\calculator_message_broker-main\calculator_publihser" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.calculator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.calculator_publisher.exception" />
+      <recent name="com.calculator_publisher.service" />
+      <recent name="com.calculator.exception" />
+      <recent name="com.calculator.service" />
+      <recent name="com.rest_consumer.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CalculatorApplication">
+    <configuration name="CalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="calculator_publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator_publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.calculator_publisher.CalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorPublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="calculator_publisher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.calculator_publisher.CalculatorPublisherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DomainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="domain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.calculator.DomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="domain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.calculator.domain.DomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="rest_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest_consumer.RestConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CalculatorApplication" />
+        <item itemvalue="Spring Boot.RestConsumerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="847d960d-5062-472c-be6b-d78eeb0e9c86" name="Changes" comment="" />
+      <created>1637903658799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637903658799</updated>
+      <workItem from="1637903660120" duration="13710000" />
+      <workItem from="1637955880183" duration="1308000" />
+      <workItem from="1637962766076" duration="4259000" />
+      <workItem from="1637974485761" duration="599000" />
+      <workItem from="1637976590107" duration="27000" />
+      <workItem from="1637983195973" duration="1394000" />
+      <workItem from="1637998177342" duration="636000" />
+      <workItem from="1637999183246" duration="1198000" />
+      <workItem from="1638006537133" duration="309000" />
+      <workItem from="1638041500889" duration="6093000" />
+      <workItem from="1638047806523" duration="1909000" />
+      <workItem from="1638049882396" duration="661000" />
+      <workItem from="1638051166324" duration="712000" />
+      <workItem from="1638051940887" duration="2251000" />
+      <workItem from="1638054489471" duration="1988000" />
+      <workItem from="1638057480507" duration="757000" />
+      <workItem from="1638058465004" duration="560000" />
+      <workItem from="1638059123243" duration="3655000" />
+      <workItem from="1638068110287" duration="8708000" />
+      <workItem from="1638079250841" duration="6715000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
